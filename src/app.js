@@ -37,6 +37,8 @@ app.get('*', (req, res) => {
 
 app.listen(appPort, () => {
     console.log('----------------------------------------------------------------');
-    console.log(`Starting Express web-server...`);
-    console.log(`Serving on: http://${os.hostname()}:${appPort}`);
+    console.log(`Server platform: ${os.platform}`)
+    console.log(`Hostname: ${os.hostname()}`);
+    console.log(`Uptime: ${os.uptime()}`);
+    console.log(`Express web-server started on port: ${appPort}`);
 })

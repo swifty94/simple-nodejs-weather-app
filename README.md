@@ -65,8 +65,10 @@ AppRoot:.
 
 ~ \weather-app-2.0>node src/app.js
 ----------------------------------------------------------------
-Starting Express web-server...
-Serving on: http://DESKTOP-ABCD:3000
+Server platform: win32
+Hostname: DESKTOP-VFQ9IEL
+Uptime: 50980.921
+Express web-server started on port: 3000
 </pre>
 
 - RESULT:
