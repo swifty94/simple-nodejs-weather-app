@@ -1,0 +1,26 @@
+{
+  "name": "simple-nodejs-weather-app",
+  "version": "2.0.0",
+  "description": "simple-nodejs-weather-app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swifty94/simple-nodejs-weather-app.git"
+  },
+  "author": "swifty94",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swifty94/simple-nodejs-weather-app.git/issues"
+  },
+  "homepage": "https://github.com/swifty94/simple-nodejs-weather-app.git#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "request": "^2.88.2"
+  },
+  "keywords": []
+}
