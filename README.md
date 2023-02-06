@@ -66,7 +66,7 @@ AppRoot:.
 ~ \weather-app-2.0>node src/app.js
 ----------------------------------------------------------------
 Starting Express web-server...
-Serving on: http://localhost:3000
+Serving on: http://DESKTOP-ABCD:3000
 </pre>
 
 - RESULT:
