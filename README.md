@@ -1,10 +1,10 @@
 Web-application using Weather API and Node.js
 
-- ![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample1.png)
+![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample1.png)
 
 <br>
 
-- ![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample2.png)
+[](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample2.png)
 
 <pre>
 AppRoot:.
