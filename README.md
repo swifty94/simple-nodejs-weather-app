@@ -1,4 +1,10 @@
-05.02 Result
+Web-application using Weather API and Node.js
+
+- ![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample1.png)
+
+<br>
+
+- ![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample2.png)
 
 <pre>
 AppRoot:.
@@ -70,10 +76,3 @@ Hostname: DESKTOP-VFQ9IEL
 Uptime: 50980.921
 Express web-server started on port: 3000
 </pre>
-
-- RESULT:
-
-![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample1.png)
-
-
-![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample2.png)
