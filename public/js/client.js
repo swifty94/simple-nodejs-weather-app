@@ -6,6 +6,12 @@ var cityElement = document.getElementById("city");
 var stateElement = document.getElementById("state");
 var postCodeElement = document.getElementById("postCode")
 var welcomeTextDiv = document.getElementById("welcome-text");
+/*
+Don't ever do below thing on production environments.
+The key is explicitly declared just because it is a test project and this is absolutely free API
+Subscription is connected to the development account with no private data.
+*/
+const freeApiKey = 'pk.40a922eae2743e2ed5a779906a930daa&lat';
 
 function getLocation() {
     if (navigator.geolocation) {
@@ -19,13 +25,10 @@ function showPosition(position) {
     var lon = position.coords.longitude;
     var geoTxt = "Detected your geolocation:<br><br>" + "Latitude: " + lat + "<br>Longitude: " + lon;
     positionElement.innerHTML = geoTxt;
-    var freeApiKey = 'pk.40a922eae2743e2ed5a779906a930daa&lat'
     var url = `https://eu1.locationiq.com/v1/reverse?key=${freeApiKey}=${lat}&lon=${lon}&format=json`;
-    console.log(url);
     fetch(url)
     .then((response) => response.json())
     .then((data) => {
-        console.log(JSON.stringify(data, null, 2));
         var country = data.address.country;
         var city = data.address.city || data.address.town;
         var state = data.address.state;

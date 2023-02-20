@@ -1,49 +1,66 @@
-Web-application using Weather API and Node.js
+Web-application using Weather API + Reverse Geolocation API + Node.js
 
-![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample1.png)
+- Main options:
+
+- Search for desired city to check current weather.
+- Automatically discover your location and check weather there.
+
+- Feel free to test it via https://simple-nodejs-weather-app.onrender.com/
+
+- Samples on local deployment:
+
+![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_1.png)
 
 <br>
 
-[](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample2.png)
+[](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_2.png)
+
+<br>
+
+[](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_3.png)
 
 <pre>
 AppRoot:.
-|   package-lock.json
-|   package.json
-|   README.md
-|   sample.gif
-|   sample1.png
-|   sample2.png
-|   settings-default.json
-|   settings.json
-|
-+---public
-|   +---css
-|   |       main.css
-|   |
-|   +---img
-|   |       bg.jpg
-|   |       city.png
-|   |       cloud.png
-|   |       country.jpg
-|   |       country.png
-|   |       feels_like.png
-|   |       humidity.png
-|   |       pressure.png
-|   |       temp_c.png
-|   |       temp_f.png
-|   |       time.png
-|   |       wind.jpg
-|   |       wind.png
-|
-+---src
-|       app.js
-|
-+---utils
-|       api.js
-|       settings.js
-|
-\---views
+│   .gitignore
+│   app-default.json
+│   package-lock.json
+│   package.json
+│   README.md
+│   sample_1.png
+│   sample_2.png
+│   sample_3.png
+│
+├───.dist
+├───public
+│   ├───css
+│   │       main.css
+│   │
+│   ├───img
+│   │       city.png
+│   │       cloud.png
+│   │       country.jpg
+│   │       country.png
+│   │       feels_like.png
+│   │       humidity.png
+│   │       pressure.png
+│   │       temp_c.png
+│   │       temp_f.png
+│   │       time.png
+│   │       wind.jpg
+│   │       wind.png
+│   │
+│   └───js
+│           client.js
+│
+├───src
+│       app.js
+│
+├───utils
+│       api.js
+│       settings.js
+│
+└───views
+        404.hbs
         index.hbs
         weather.hbs
 </pre>
@@ -72,7 +89,8 @@ AppRoot:.
 ~ \weather-app-2.0>node src/app.js
 ----------------------------------------------------------------
 Server platform: win32
-Hostname: DESKTOP-VFQ9IEL
-Uptime: 50980.921
+Hostname: DESKTOP-Q9IEVFL
+Uptime: 132052.421
 Express web-server started on port: 3000
+Possible URL to try: http://DESKTOP-Q9IEVFL:3000
 </pre>
