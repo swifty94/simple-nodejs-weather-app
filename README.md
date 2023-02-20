@@ -1,19 +1,23 @@
 Web-application using Weather API + Reverse Geolocation API + Node.js
 
-- Main options:
-        - Search for desired city to check current weather.
-        - Automatically discover your location and check weather there.
-
+Main options:
+---
+- Search for desired city to check current weather.
+- Automatically discover your location and check weather there.
 - Feel free to test it via https://simple-nodejs-weather-app.onrender.com/
 
-- Demo on local deployment:
+Demo on local deployment:
+---
+
 ![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_1.png)
 
 ![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_2.png)
 
 ![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_3.png)
 
-- Application structure:
+Application structure:
+---
+
 <pre>
 AppRoot:.
 │   .gitignore
@@ -60,14 +64,15 @@ AppRoot:.
         weather.hbs
 </pre>
 
-- Requirements:
+Requirements:
+---
 
 - install NodeJS if not already installed from here https://nodejs.org/
 - sign up on Weather API here https://www.weatherapi.com/pricing.aspx ang get your API key
 (free, no credit card needed)
 
-- Install:
-
+Installation:
+---
 <pre>
 - rename your app-default.json to app.json
 - open the app.json and put your WEATHER_API_KEY. APP_PORT can be left as is if you not sure what to use.
@@ -76,10 +81,11 @@ AppRoot:.
 - run npm install
 </pre>
 
-- Run:
+Deployment:
+---
+After the installation in the same directory run:
 
 <pre>
-- after the installation in the same directory run:
 
 ~ \weather-app-3.0>node src/app.js
 ----------------------------------------------------------------
