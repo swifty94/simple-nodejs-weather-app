@@ -9,11 +9,11 @@ Main options:
 Demo on local deployment:
 ---
 
-![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_1.png)
+![](https://github.com/swifty94/simple-nodejs-weather-app/blob/master/sample_1.png)
 
-![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_2.png)
+![](https://github.com/swifty94/simple-nodejs-weather-app/blob/master/sample_2.png)
 
-![](https://github.com/swifty94/nodejs-course/blob/master/weather-app-2.0/sample_3.png)
+![](https://github.com/swifty94/simple-nodejs-weather-app/blob/master/sample_3.png)
 
 Application structure:
 ---
