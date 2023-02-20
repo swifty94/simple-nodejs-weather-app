@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e hbs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
     "hbs": "^4.2.0",
     "request": "^2.88.2"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }

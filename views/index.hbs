@@ -6,17 +6,36 @@
     <body>
         <h1 style="text-align: center; font-size: 25px;">A very simple weather app</h1>
         <br />
-        <div class="userInput" style="margin-top: 50px; padding: 50px;">
-            <h2>Please input the desired city to get weather details</h2>
+        <div class="search-form">
             <form action="/weather?">
                 <br>
                 <input type="text" id="search" name="search" placeholder="Kharkiv" required>
                 <br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Search">
                 <br>
             </form>
-            <br>
         </div>
+        <div id="welcome-text" style="display: block; margin-top: 40px; padding: 40px;">
+            <p>You can check weather in whatever city you wish.</p>
+            <p>Just type it in the search form above in English and click "Search"</p>
+            <br>
+            <p>Or, you can easily check the weather right where you are!</p>
+            <p>Click on the button below and the app can try to locate you &#128512;</p>
+        </div>
+        <p><button onclick="getLocation()">Locate me!</button></p>
+        <br>
+        <div id="location" style="display: none">
+            <br>
+            <p id="position"></p>
+            <br>
+            <p id="country">Country: </p>
+            <p id="city">City: </p>
+            <p id="state">State: </p>
+            <p id="postCode">Post code: </p>
+        </div>
+        <br>
+        </div>
+    <script src="/js/client.js"></script>
     </body>
     <footer>
       <p style="text-align: center;">Created by &copy; swifty94</p>

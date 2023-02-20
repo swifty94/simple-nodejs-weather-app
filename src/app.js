@@ -41,4 +41,5 @@ app.listen(appPort, () => {
     console.log(`Hostname: ${os.hostname()}`);
     console.log(`Uptime: ${os.uptime()}`);
     console.log(`Express web-server started on port: ${appPort}`);
+    console.log(`Possible URL to try: http://${os.hostname()}:${appPort}`)
 })
