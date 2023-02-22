@@ -12,15 +12,13 @@ const app = express();
 app.set('view engine', 'hbs');
 app.use(express.static(publicFolder));
 
-
 app.get('', (req, res) => {
     res.render('index');
 });
-
-
 app.get('/weather', (req, res) => {
-    const url = `https://api.weatherapi.com/v1/current.json?q="${req.query.search}"&aqi=yes&key=${weatherToken}`;
+    const url = encodeURI(`https://api.weatherapi.com/v1/current.json?q=${req.query.search}&aqi=yes&key=${weatherToken}`);
     api.getData(url, (err, data) => {
+        console.log(url);
         if (err) {
             // api provides an error response in JSON format anyway
             res.send(data);

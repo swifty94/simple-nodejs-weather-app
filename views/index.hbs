@@ -11,7 +11,7 @@
                 <br>
                 <input type="text" id="search" name="search" placeholder="City for search" required>
                 <br>
-                <input id="btnSearch" type="submit" value="Search">
+                <input onmouseover="translateSearch()" id="btnSearch" type="submit" value="Search">
                 <br>
             </form>
         </div>
@@ -36,7 +36,13 @@
         </div>
         <br>
         </div>
-    <script src="/js/client.js"></script>
+        <script src="/js/client.js"></script>
+        <script>
+            function translateSearch() {
+                var search = document.getElementById("search");
+                search.value = transliterate(search.value);
+            }
+        </script>
     </body>
     <footer>
       <p style="text-align: center;">Created by &copy; swifty94</p>
